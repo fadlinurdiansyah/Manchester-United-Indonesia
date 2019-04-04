@@ -8,20 +8,63 @@
 
 /* Begin PBXBuildFile section */
 		25017D0F2225DB0C00318919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25017D0E2225DB0C00318919 /* AppDelegate.swift */; };
-		25017D112225DB0C00318919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25017D102225DB0C00318919 /* ViewController.swift */; };
-		25017D142225DB0C00318919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25017D122225DB0C00318919 /* Main.storyboard */; };
-		25017D162225DB0F00318919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25017D152225DB0F00318919 /* Assets.xcassets */; };
+		25017D112225DB0C00318919 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25017D102225DB0C00318919 /* LoginVC.swift */; };
 		25017D192225DB0F00318919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25017D172225DB0F00318919 /* LaunchScreen.storyboard */; };
+		25017D252225DCE000318919 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25017D242225DCE000318919 /* Extension.swift */; };
+		25017D272225E1FE00318919 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25017D262225E1FE00318919 /* PageCell.swift */; };
+		25017D292225E27D00318919 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25017D282225E27D00318919 /* BaseCell.swift */; };
+		25017D2B2225F9E000318919 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25017D2A2225F9E000318919 /* LoginCell.swift */; };
+		25031C0E223DB47500BA50B0 /* NobarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25031C0D223DB47500BA50B0 /* NobarCell.swift */; };
+		25031C10223DC2D500BA50B0 /* NobarMB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25031C0F223DC2D500BA50B0 /* NobarMB.swift */; };
+		25031C14223DDAEE00BA50B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25031C13223DDAEE00BA50B0 /* Images.xcassets */; };
+		25075D862228913400AEC024 /* PertandinganTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25075D852228913400AEC024 /* PertandinganTVC.swift */; };
+		2507F8A72226CD8800C996F3 /* HomeTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2507F8A62226CD8800C996F3 /* HomeTC.swift */; };
+		2507F8A92226D79100C996F3 /* BeritaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2507F8A82226D79100C996F3 /* BeritaVC.swift */; };
+		2507F8AB2226DAAC00C996F3 /* NobarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2507F8AA2226DAAC00C996F3 /* NobarVC.swift */; };
+		250845222231572A00D65D46 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250845212231572A00D65D46 /* Data.swift */; };
+		250957C622272F9A0073786E /* PertandinganVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250957C522272F9A0073786E /* PertandinganVC.swift */; };
+		250957C822272FF20073786E /* KlasemenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250957C722272FF20073786E /* KlasemenVC.swift */; };
+		2509949C222DC32D00EC0230 /* BeritaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509949B222DC32D00EC0230 /* BeritaCell.swift */; };
+		2509C94522337F6B00474B8D /* BeritaHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509C94422337F6B00474B8D /* BeritaHeader.swift */; };
+		250C04EF224618E500550830 /* ZoomFotoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C04EE224618E500550830 /* ZoomFotoLauncher.swift */; };
+		250DCE5022457A7300CCFB84 /* DetailNobarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250DCE4F22457A7300CCFB84 /* DetailNobarVC.swift */; };
+		250DCE5222457EE000CCFB84 /* HeaderDetailNobar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250DCE5122457EE000CCFB84 /* HeaderDetailNobar.swift */; };
+		250DCE5622458C9000CCFB84 /* MapLokasiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250DCE5522458C9000CCFB84 /* MapLokasiCell.swift */; };
+		2510BE1C2253ABCD00C52EDA /* FacilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2510BE1B2253ABCD00C52EDA /* FacilityCell.swift */; };
+		25160B4F222A30E9000A575F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25160B4E222A30E9000A575F /* FontAwesome.ttf */; };
+		25160B51222A3168000A575F /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160B50222A3168000A575F /* FontAwesomeKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25017D0B2225DB0C00318919 /* Manchester United Indonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manchester United Indonesia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25017D0E2225DB0C00318919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25017D102225DB0C00318919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		25017D132225DB0C00318919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25017D152225DB0F00318919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25017D102225DB0C00318919 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		25017D182225DB0F00318919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25017D1A2225DB0F00318919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25017D242225DCE000318919 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		25017D262225E1FE00318919 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		25017D282225E27D00318919 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		25017D2A2225F9E000318919 /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		25031C0D223DB47500BA50B0 /* NobarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobarCell.swift; sourceTree = "<group>"; };
+		25031C0F223DC2D500BA50B0 /* NobarMB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobarMB.swift; sourceTree = "<group>"; };
+		25031C13223DDAEE00BA50B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25075D852228913400AEC024 /* PertandinganTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PertandinganTVC.swift; sourceTree = "<group>"; };
+		2507F8A62226CD8800C996F3 /* HomeTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTC.swift; sourceTree = "<group>"; };
+		2507F8A82226D79100C996F3 /* BeritaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaVC.swift; sourceTree = "<group>"; };
+		2507F8AA2226DAAC00C996F3 /* NobarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobarVC.swift; sourceTree = "<group>"; };
+		250845212231572A00D65D46 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		250957C522272F9A0073786E /* PertandinganVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PertandinganVC.swift; sourceTree = "<group>"; };
+		250957C722272FF20073786E /* KlasemenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlasemenVC.swift; sourceTree = "<group>"; };
+		2509949B222DC32D00EC0230 /* BeritaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaCell.swift; sourceTree = "<group>"; };
+		2509C94422337F6B00474B8D /* BeritaHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaHeader.swift; sourceTree = "<group>"; };
+		250AC064224D06C200D18CDD /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		250C04EE224618E500550830 /* ZoomFotoLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomFotoLauncher.swift; sourceTree = "<group>"; };
+		250DCE4F22457A7300CCFB84 /* DetailNobarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNobarVC.swift; sourceTree = "<group>"; };
+		250DCE5122457EE000CCFB84 /* HeaderDetailNobar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailNobar.swift; sourceTree = "<group>"; };
+		250DCE5522458C9000CCFB84 /* MapLokasiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLokasiCell.swift; sourceTree = "<group>"; };
+		2510BE1B2253ABCD00C52EDA /* FacilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityCell.swift; sourceTree = "<group>"; };
+		25160B4E222A30E9000A575F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		25160B50222A3168000A575F /* FontAwesomeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +81,9 @@
 		25017D022225DB0C00318919 = {
 			isa = PBXGroup;
 			children = (
+				250AC064224D06C200D18CDD /* Location.gpx */,
+				25031C13223DDAEE00BA50B0 /* Images.xcassets */,
+				25160B4E222A30E9000A575F /* FontAwesome.ttf */,
 				25017D0D2225DB0C00318919 /* Manchester United Indonesia */,
 				25017D0C2225DB0C00318919 /* Products */,
 			);
@@ -55,13 +101,88 @@
 			isa = PBXGroup;
 			children = (
 				25017D0E2225DB0C00318919 /* AppDelegate.swift */,
-				25017D102225DB0C00318919 /* ViewController.swift */,
-				25017D122225DB0C00318919 /* Main.storyboard */,
-				25017D152225DB0F00318919 /* Assets.xcassets */,
+				25017D232225DCC200318919 /* Helper */,
+				25017D222225DCAA00318919 /* Controller */,
+				25017D212225DCA300318919 /* View */,
+				25017D202225DC9700318919 /* Model */,
 				25017D172225DB0F00318919 /* LaunchScreen.storyboard */,
 				25017D1A2225DB0F00318919 /* Info.plist */,
 			);
 			path = "Manchester United Indonesia";
+			sourceTree = "<group>";
+		};
+		25017D202225DC9700318919 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				250845212231572A00D65D46 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25017D212225DCA300318919 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25031C0C223DB45F00BA50B0 /* Nobar */,
+				2509949A222DC08600EC0230 /* Berita */,
+				2507472722297BC700855FA1 /* Pertandingan */,
+				25017D262225E1FE00318919 /* PageCell.swift */,
+				25017D282225E27D00318919 /* BaseCell.swift */,
+				25017D2A2225F9E000318919 /* LoginCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25017D222225DCAA00318919 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25017D102225DB0C00318919 /* LoginVC.swift */,
+				2507F8A62226CD8800C996F3 /* HomeTC.swift */,
+				2507F8A82226D79100C996F3 /* BeritaVC.swift */,
+				2507F8AA2226DAAC00C996F3 /* NobarVC.swift */,
+				250957C522272F9A0073786E /* PertandinganVC.swift */,
+				250957C722272FF20073786E /* KlasemenVC.swift */,
+				250DCE4F22457A7300CCFB84 /* DetailNobarVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25017D232225DCC200318919 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				25160B50222A3168000A575F /* FontAwesomeKit.swift */,
+				25017D242225DCE000318919 /* Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		25031C0C223DB45F00BA50B0 /* Nobar */ = {
+			isa = PBXGroup;
+			children = (
+				25031C0D223DB47500BA50B0 /* NobarCell.swift */,
+				25031C0F223DC2D500BA50B0 /* NobarMB.swift */,
+				250DCE5122457EE000CCFB84 /* HeaderDetailNobar.swift */,
+				250DCE5522458C9000CCFB84 /* MapLokasiCell.swift */,
+				2510BE1B2253ABCD00C52EDA /* FacilityCell.swift */,
+				250C04EE224618E500550830 /* ZoomFotoLauncher.swift */,
+			);
+			path = Nobar;
+			sourceTree = "<group>";
+		};
+		2507472722297BC700855FA1 /* Pertandingan */ = {
+			isa = PBXGroup;
+			children = (
+				25075D852228913400AEC024 /* PertandinganTVC.swift */,
+			);
+			path = Pertandingan;
+			sourceTree = "<group>";
+		};
+		2509949A222DC08600EC0230 /* Berita */ = {
+			isa = PBXGroup;
+			children = (
+				2509949B222DC32D00EC0230 /* BeritaCell.swift */,
+				2509C94422337F6B00474B8D /* BeritaHeader.swift */,
+			);
+			path = Berita;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25031C14223DDAEE00BA50B0 /* Images.xcassets in Resources */,
 				25017D192225DB0F00318919 /* LaunchScreen.storyboard in Resources */,
-				25017D162225DB0F00318919 /* Assets.xcassets in Resources */,
-				25017D142225DB0C00318919 /* Main.storyboard in Resources */,
+				25160B4F222A30E9000A575F /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +256,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25017D112225DB0C00318919 /* ViewController.swift in Sources */,
+				2507F8AB2226DAAC00C996F3 /* NobarVC.swift in Sources */,
+				250DCE5222457EE000CCFB84 /* HeaderDetailNobar.swift in Sources */,
+				250DCE5622458C9000CCFB84 /* MapLokasiCell.swift in Sources */,
+				250845222231572A00D65D46 /* Data.swift in Sources */,
+				25160B51222A3168000A575F /* FontAwesomeKit.swift in Sources */,
+				2507F8A72226CD8800C996F3 /* HomeTC.swift in Sources */,
+				2507F8A92226D79100C996F3 /* BeritaVC.swift in Sources */,
+				250C04EF224618E500550830 /* ZoomFotoLauncher.swift in Sources */,
+				2509C94522337F6B00474B8D /* BeritaHeader.swift in Sources */,
+				25017D252225DCE000318919 /* Extension.swift in Sources */,
+				2510BE1C2253ABCD00C52EDA /* FacilityCell.swift in Sources */,
+				25017D112225DB0C00318919 /* LoginVC.swift in Sources */,
+				25031C0E223DB47500BA50B0 /* NobarCell.swift in Sources */,
+				250DCE5022457A7300CCFB84 /* DetailNobarVC.swift in Sources */,
+				250957C822272FF20073786E /* KlasemenVC.swift in Sources */,
+				2509949C222DC32D00EC0230 /* BeritaCell.swift in Sources */,
+				25017D272225E1FE00318919 /* PageCell.swift in Sources */,
+				25017D292225E27D00318919 /* BaseCell.swift in Sources */,
+				25075D862228913400AEC024 /* PertandinganTVC.swift in Sources */,
 				25017D0F2225DB0C00318919 /* AppDelegate.swift in Sources */,
+				25017D2B2225F9E000318919 /* LoginCell.swift in Sources */,
+				250957C622272F9A0073786E /* PertandinganVC.swift in Sources */,
+				25031C10223DC2D500BA50B0 /* NobarMB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		25017D122225DB0C00318919 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25017D132225DB0C00318919 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		25017D172225DB0F00318919 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U24YPMMYP8;
 				INFOPLIST_FILE = "Manchester United Indonesia/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U24YPMMYP8;
 				INFOPLIST_FILE = "Manchester United Indonesia/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
